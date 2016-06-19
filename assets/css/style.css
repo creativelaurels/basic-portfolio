@@ -1,0 +1,30 @@
+<!--- CSS for Basic Portfolio | Lauren Farrell --->
+
+
+section {
+	margin: 15px;
+	padding: 20px;
+}
+
+
+#content {
+	background-color: blue
+}
+
+#connect {
+	background-color: yellow;
+}
+
+#header {
+
+	background-color: purple;
+	height: 50px;
+}
+
+#nav {
+	background-color: pink;
+}
+
+#footer {
+	background-color: silver;
+}

@@ -24,6 +24,11 @@ h2 {
 	border-bottom: 2px solid #cccccc;
 }
 
+h3 {
+	font-size: 10pt;
+	font-style: normal;
+}
+
 p {
 	line-height: 1.75;
 	padding: 10px;
@@ -94,4 +99,5 @@ p {
 	padding-top: 15px;
 	padding-bottom: 15px;
 	height: 175px;
+	float: left;
 }

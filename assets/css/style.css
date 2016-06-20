@@ -5,63 +5,93 @@
 }
 
 html {
-	background: silver;
 	font-family: arial, Helvetica, sans-serif;
-	color: #777777;
 }
 
 section {
-	margin: 20px;
-	padding: 20px;
-	border: 1px solid red;
 }
 
+h1 {
+	color: white;
+	font-family: georgia;
+	padding: 20px;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-family: georgia;
+	padding: 10px;
+	border-bottom: 2px solid #cccccc;
+}
+
+p {
+	line-height: 1.75;
+	padding: 10px;
+}
+
+.header {
+
+	background-color: white;
+	border-bottom: 2px solid #cccccc;
+	overflow: auto;
+}
+
+#header-name {
+	float:left;
+	margin-left: 150px;
+	background-color: #4aaaa5;
+}
+
+#nav {
+	background-color: pink;
+	float: right;
+}
+
+.center {
+	background-image: url('ignasi_pattern_s.png');
+	background-repeat: repeat;
+	overflow: auto;
+
+}
 
 #content-left {
-	background-color: white;
+	background-color: #ffffff;
 	float: left;
 	width: 50%;
+	margin-left: 150px;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	text-align: justify; 
+	border: 1px solid #cccccc;
 }
 
 #connect-right {
 	background-color: white;
 	float: left;
 	text-align: center;
+	margin-left: 30px;
+	padding: 20px;
+	margin-top: 20px;
+	border: 1px solid #cccccc;
 }
 
-#header {
-
-	background-color: #4aaaa5;
-	height: 50px;
-}
-
-#header-name {
-	width: 50%;
-}
-
-#nav {
-	background-color: pink;
-}
-
-h1 {
+.footer {
 	color: white;
-	font-family: georgia;
-}
-
-h2 {
-	color: #4aaaa5;
-	font-family: georgia;
-}
-
-
-#footer {
-	background-color: gray;
+	background-color: #666666;
+	border-top-width: 5px solid #4aaaa5;
+	overflow: auto;
 	clear: both;
+	text-align: center;
+}
+
+.container {
 
 }
 
-p {
-	line-height: 1.75;
-	color:;
-	padding: 10px;
+.profile-photo {
+	padding-right: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	height: 175px;
 }

@@ -14,7 +14,7 @@ section {
 h1 {
 	color: white;
 	font-family: georgia;
-	padding: 20px;
+	padding: 30px;
 	font-size: 24px;
 }
 
@@ -46,6 +46,7 @@ p.contact {
 	padding-bottom: 0px;
 	padding-top: 15px;
 	margin: 0px;
+	display: block;
 }
 
 p.index {
@@ -208,7 +209,7 @@ a.nav {
 	text-align: center;
 	font-family: georgia;
 	left: 139px;
-	top: 800px;
+	top: 820px;
 	position: absolute;
 }
 
@@ -221,13 +222,12 @@ input, textarea {
 	display: block;
 }
 
-
 input.message {
 	height: 250px;
 	display: block;
 }
 
-select, button {
+button  {
 	width: 120px;
 	height: 45px;
 	background-color: #4aaaa5;

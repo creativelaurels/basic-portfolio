@@ -22,14 +22,21 @@ h2 {
 	color: #4aaaa5;
 	font-family: georgia;
 	padding-bottom: 25px;
+	padding-top: 15px;
 	border-bottom: 2px solid #cccccc;
 	font-size: 24px
 }
 
 h3 {
-	font-size: 14pt;
+	font-size: 10pt;
 	font-style: normal;
 }
+h3.footer {
+	font-size: 10pt;
+	font-style: normal;
+	font-color: #c8da2e;
+}
+
 
 h3.portfolio {
 	font-size: 12pt;
@@ -55,10 +62,18 @@ p.index {
 	padding: 10px;
 }
 
+a.footer {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+
+
 a.nav {
 	color: #666666;
 	padding-right: 30px;
 	padding-left: 30px;
+	text-decoration: none;
 
 }
 
@@ -131,6 +146,7 @@ a.nav:hover {
 	clear: both;
 	text-align: center;
 	padding: 30px;
+	transition-duration: 0.1s;
 }
 
 .container {
@@ -253,7 +269,7 @@ input.message {
 	font-size: 16px;
 	margin-top: 15px;
 	box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
-	transition-duration: 0.4s;
+	transition-duration: 0.5s;
 }
 
 .button:hover {

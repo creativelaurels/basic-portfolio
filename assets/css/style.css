@@ -38,6 +38,18 @@ h3.portfolio {
 }
 
 p {
+	color: #777777;
+}
+
+p.contact {
+	font-size: 14pt;
+	padding-bottom: 0px;
+	padding-top: 15px;
+	margin: 0px;
+}
+
+p.index {
+	font-size: 12pt;
 	line-height: 1.75;
 	padding: 10px;
 }
@@ -53,19 +65,20 @@ a.nav {
 	background-color: white;
 	border-bottom: 2px solid #cccccc;
 	overflow: auto;
+	width: auto;
 }
 
 #header-name {
 	float:left;
-	margin-left: 150px;
+	margin-left: 100px;
 	background-color: #4aaaa5;
 }
 
 #nav {
 	text-align: right;
-	margin-right: 100px;
-	padding: 40px;
 	color: #cccccc;
+	padding-top: 40px;
+	position: relative;
 }
 
 .center {
@@ -79,7 +92,7 @@ a.nav {
 	background-color: #ffffff;
 	float: left;
 	width: 590px;
-	margin-left: 150px;
+	margin-left: 100px;
 	padding: 20px;
 	margin-top: 30px;
 	margin-bottom: 30px;
@@ -108,7 +121,7 @@ a.nav {
 }
 
 .container {
-	width: 960px;
+	width: 860px;
 }
 
 .profile-photo {
@@ -142,7 +155,7 @@ a.nav {
 	color: white;
 	text-align: center;
 	font-family: georgia;
-	left: 189px;
+	left: 139px;
 	top: 385px;
 	position: absolute;
 	text-align: center;
@@ -155,7 +168,7 @@ a.nav {
 	color: white;
 	text-align: center;
 	font-family: georgia;
-	left: 189px;
+	left: 139px;
 	top: 600px;
 	position: absolute;
 }
@@ -168,7 +181,7 @@ a.nav {
 	color: white;
 	text-align: center;
 	font-family: georgia;
-	left: 489px;
+	left: 439px;
 	top: 385px;
 	position: absolute;
 }
@@ -181,7 +194,7 @@ a.nav {
 	color: white;
 	text-align: center;
 	font-family: georgia;
-	left: 489px;
+	left: 439px;
 	top: 600px;
 	position: absolute;
 }
@@ -194,7 +207,32 @@ a.nav {
 	color: white;
 	text-align: center;
 	font-family: georgia;
-	left: 189px;
+	left: 139px;
 	top: 800px;
 	position: absolute;
+}
+
+input, textarea {
+	width: 560px;
+	padding: 10px;
+	border: 1px solid #cccccc
+	font-size: 14px;
+	font-family: arial;
+	display: block;
+}
+
+
+input.message {
+	height: 250px;
+	display: block;
+}
+
+select, button {
+	width: 120px;
+	height: 45px;
+	background-color: #4aaaa5;
+	color: white;
+	font-family: arial;
+	font-size: 16px;
+	margin-top: 15px;
 }

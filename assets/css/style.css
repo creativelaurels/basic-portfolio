@@ -59,7 +59,13 @@ a.nav {
 	color: #666666;
 	padding-right: 30px;
 	padding-left: 30px;
+
 }
+
+a.nav:hover {
+	color: #4aaaa5;
+}
+
 
 .header {
 
@@ -146,6 +152,7 @@ a.nav {
 	height: 200px;
 	float: left;
 	position: relative;
+	box-shadow: 0 4px 5px 0 rgba(0,0,0,0.2), 0 4px 5px 0 rgba(0,0,0,0.19);
 }
 
 .portfolio-photo-r {
@@ -154,7 +161,9 @@ a.nav {
 	height: 200px;
 	float: right;
 	position: relative;
+	box-shadow: 0 4px 5px 0 rgba(0,0,0,0.2), 0 4px 5px 0 rgba(0,0,0,0.19);
 }
+
 .box {
 	background:#4aaaa5;
 	width: 270px;
@@ -168,6 +177,7 @@ a.nav {
 	position: absolute;
 	text-align: center;
 }
+
 .box2 {
 	background:#4aaaa5;
 	width: 270px;
@@ -234,11 +244,23 @@ input.message {
 	display: block;
 }
 
-button  {
+.button  {
 	width: 120px;
 	height: 45px;
 	background-color: #4aaaa5;
 	color: white;
+	font-family: arial;
+	font-size: 16px;
+	margin-top: 15px;
+	box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+	transition-duration: 0.4s;
+}
+
+.button:hover {
+	width: 120px;
+	height: 45px;
+	background-color: #4ce1d9;
+	color: black;
 	font-family: arial;
 	font-size: 16px;
 	margin-top: 15px;

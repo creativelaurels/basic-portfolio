@@ -141,12 +141,13 @@ a.nav:hover {
 .footer {
 	color: white;
 	background-color: #666666;
-	border-top-width: 5px solid #4aaaa5;
 	overflow: auto;
 	clear: both;
 	text-align: center;
 	padding: 30px;
 	transition-duration: 0.1s;
+	border-style: solid;
+	border-top: thick solid #4aaaa5;
 }
 
 .container {
@@ -280,4 +281,9 @@ input.message {
 	font-family: arial;
 	font-size: 16px;
 	margin-top: 15px;
+}
+
+a.footer {
+	border-style: none;
+	border-top: none;
 }

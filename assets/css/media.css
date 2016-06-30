@@ -1,11 +1,68 @@
 @media only screen and (max-width: 980px) {
+	#content-left {
+		width: 40%;
+	}
 
+	#nav {
+		margin-right: 100px;
+	}
+
+	input, textarea {
+	width: 350px;
+	padding: 10px;
+	border: 1px solid #cccccc
+	font-size: 14px;
+	font-family: arial;
+	display: block;
+}
 }
 
 @media only screen and (max-width: 768px) {
 
+		#header-name {
+			margin-left:20px;
+		}
+
+		#connect-right {
+			width: 89%;
+			margin-left: 20px;
+			margin-right: 20px;
+			margin-bottom: 20px;
+		}
+
+
+
+		#img-links {
+			float: left;
+
+		}
+
+		h2 {
+			text-align: left;
+			width: auto;
+		}
+
+		#content-left {
+			width: auto;
+			height: auto;
+			background-color: white;
+			margin-left: 20px;
+			margin-right: 20px;
+
+		}
+
+		input, textarea {
+			width: 620px;
+			padding: 10px;
+			border: 1px solid #cccccc
+			font-size: 14px;
+			font-family: arial;
+			display: block;
+		}
+
 
 @media only screen and (max-width: 640px) {
+
 		#header-name {
 		width: 100%;
 		margin-left:0;
@@ -25,6 +82,7 @@
 			text-align: center;
 			padding: 30px;
 			clear: both;
+			margin-right: 0;
 		}
 
 		a.nav {
@@ -33,10 +91,8 @@
 		}
 
 		.center {
-			width: 100%;
-			overflow: hidden;
-		}
 
+		}
 
 		#content-left {
 			width: auto;
@@ -61,6 +117,7 @@
 
 
 		#connect-right{
+			width: 86%;
 			margin-left: 20px;
 			margin-right: 20px;
 			float: left;
@@ -91,7 +148,14 @@
 		}
 
 		.container {
-			width: auto;
-			clear: both;
+		}
+
+		input, textarea {
+			width: 490px;
+			padding: 10px;
+			border: 1px solid #cccccc
+			font-size: 14px;
+			font-family: arial;
+			display: block;
 		}
 }
